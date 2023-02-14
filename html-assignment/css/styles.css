@@ -27,15 +27,15 @@ ul .bullets {
     list-style-type: none;
   }
 
-a .link {
+a {
     text-decoration: none;
 }
 
-a:link {
-    background-color: yellow;
+a {
+    background-color: #033860;
 }
 
   
 a:hover {
-    background-color: lightgreen;
+    background-color: #E7E247;
 }
