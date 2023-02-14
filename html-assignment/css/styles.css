@@ -22,3 +22,7 @@ header, footer {
 .hobbies li:nth-child(odd) {
     background: #E7E247;
   }
+
+  ul.bullets {
+    list-style-type: none;
+  }
