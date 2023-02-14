@@ -15,6 +15,10 @@ header, footer {
     box-shadow: 0px 0px 2px 1px black;
   }
 
-  .hobbies {
+.hobbies {
     list-style-type: square;
+  }
+
+ul .hobbies:nth-child(odd) {
+    background: #E7E247;
   }
