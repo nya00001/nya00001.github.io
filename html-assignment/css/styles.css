@@ -23,7 +23,7 @@ header, footer {
     background: #E7E247;
   }
 
-ul .bullets {
+.bullets {
     list-style-type: none;
   }
 
