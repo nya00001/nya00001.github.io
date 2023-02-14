@@ -23,6 +23,10 @@ header, footer {
     background: #E7E247;
   }
 
-  ul.bullets {
+ul .bullets {
     list-style-type: none;
   }
+
+a .link {
+    text-decoration: none;
+}
