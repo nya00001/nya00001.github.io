@@ -29,13 +29,9 @@ header, footer {
 
 a {
     text-decoration: none;
+    background-color: #70D6FF;
 }
 
-a {
-    background-color: #033860;
-}
-
-  
 a:hover {
     background-color: #E7E247;
 }
