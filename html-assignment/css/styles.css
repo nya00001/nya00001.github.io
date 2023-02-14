@@ -31,7 +31,7 @@ a .link {
     text-decoration: none;
 }
 
-a .link {
+a:link {
     background-color: yellow;
 }
 
