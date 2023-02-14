@@ -29,6 +29,9 @@ ul .bullets {
 
 a .link {
     text-decoration: none;
+}
+
+a .link {
     background-color: yellow;
 }
 
