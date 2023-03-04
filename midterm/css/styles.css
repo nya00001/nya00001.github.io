@@ -6,9 +6,7 @@ body{
 .wrapper {
     width: 75%;
     margin: auto;
-    margin-top: 0;
     background-color:#cbf7f2;
-    position: ;
 }
 
 .container {
@@ -43,6 +41,7 @@ h1 {
     float: left;
     margin-right: 20px;
     margin-left: 10px;
+    margin-bottom: 20px;
 }
 
 p {
@@ -85,6 +84,29 @@ h3 {
     font-size: 20px;
     font-weight: 500;
     margin: 25px 0px 20px 10px;
+    clear: left;
+}
+
+.form-container {
+
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.form-container input[id="fullname"], input[id="email"] {
+    width: 100%;
+}
+
+.form-container input[id="message"] {
+    width: 100vh ; 
+    height: 100px;
 }
 
 footer {
@@ -92,4 +114,5 @@ footer {
     padding: 20px;
     font-size: small;
 }
+
 
