@@ -1,52 +1,3 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
 body{
     background-color:#aad4cf;
     font-family: Arial, Helvetica, sans-serif;
@@ -55,8 +6,9 @@ body{
 .wrapper {
     width: 75%;
     margin: auto;
+    margin-top: 0;
     background-color:#cbf7f2;
-    overflow: hidden;
+    position: ;
 }
 
 .container {
@@ -72,7 +24,7 @@ body{
 
 h1 {
     color: white;
-    font-size: 60px;
+    font-size: 40px;
     text-align: center;
 }
 
@@ -81,6 +33,8 @@ h1 {
     width: 100%;
     height: auto;
     display: block;
+    margin: 0;
+    padding: 0;
 }
 
 .pimage {
@@ -97,33 +51,45 @@ p {
 }
 
 
-nav {
+.navigation {
     text-align: center;
 }
 
-nav ul {
+.navigation ul {
     list-style: none;
-
     padding: 0;
+    margin: 0;
+    margin-top: 2px;
     display: flex;
     font-weight: 600;
 }
 
-nav li {
+.navigation li {
     width: 33%;
-    margin-bottom:30px;
-    margin-top: 2px;
-    padding-top: 10px;
+    padding-top: 5px;
     padding-bottom: 5px;
 }
 
-nav li:nth-child(-n+2) {
+.navigation li:nth-child(-n+2) {
     border-right: 1px solid black;
   }
 
 h2 {
     font-size: 28px;
     margin-left: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     font-weight: 500;
 }
+
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 25px 0px 20px 10px;
+}
+
+footer {
+    text-align: right;
+    padding: 20px;
+    font-size: small;
+}
+
