@@ -49,13 +49,7 @@ table {
 
 body{
     background-color:#aad4cf;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-h1 {
-    color: white;
-    font-size: 40px;
-    
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .wrapper {
@@ -65,6 +59,24 @@ h1 {
     overflow: hidden;
 }
 
+.container {
+    position: relative;
+}
+
+.header1 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+
+
 .himage {
     width: 100%;
     height: auto;
@@ -72,8 +84,8 @@ h1 {
 }
 
 .pimage {
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
     float: left;
     margin-right: 20px;
 }
@@ -90,12 +102,15 @@ nav {
 nav ul {
     list-style: none;
     margin-bottom: 30px;
+    margin-top: 10px;
     padding: 0;
     display: flex;
+    font-weight: 600;
 }
 
 nav li {
     width: 33%;
+    border-right: 1px solid black;
 }
 
 h2 {
