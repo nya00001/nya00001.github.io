@@ -7,3 +7,18 @@ body{
     margin: auto;
     background-color:#cbf7f2;
 }
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    width: 33%;
+}
