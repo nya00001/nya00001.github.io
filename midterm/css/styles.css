@@ -1,26 +1,26 @@
 body{
-    background-color:#aad4cf;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color:#aad4cf; /* sets the background color of the body */
+    font-family: Arial, Helvetica, sans-serif; /* sets the font of the body */
 }
 
-.wrapper {
-    width: 75%;
-    margin: auto;
+.wrapper { /* sets the width, margin and background color of the group conatiner wrapper */
+    width: 75%; 
+    margin: auto; 
     background-color:#cbf7f2;
 }
 
-.container {
+.container { /* sets the position of the group container to control the layout */
     position: relative;
 }
 
-.header1 {
+.header1 { /* sets the position of the group conatiner header1 and its final location */
     position: absolute;
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-h1 {
+h1 { /* sets the color, font weight and size and the inline position of the fisrt header */
     color: white;
     font-weight: 500;
     font-size: 44px;
@@ -32,14 +32,14 @@ h1 {
     width: 100%;
     height: auto;
     display: block;
-    margin: 0;
-    padding: 0;
+    margin: 0; /* determines the margin area of the group container */
+    padding: 0; /* determines the padding area of the group container */
 }
 
 .pimage {
     width: 200px;
     height: 200px;
-    float: left;
+    float: left; /* aligns an element to the left or right of its containing element, allowing other elements to flow around it. */
     margin-right: 20px;
     margin-left: 10px;
     margin-bottom: 20px;
@@ -56,11 +56,11 @@ p {
 }
 
 .navigation ul {
-    list-style: none;
+    list-style: none; /* controls the appearance of bullet points or numbering in a list in this case, none. */
     padding: 0;
     margin: 0;
     margin-top: 2px;
-    display: flex;
+    display: flex; /* generates a flexible container box */
     font-weight: 600;
 }
 
@@ -70,8 +70,8 @@ p {
     padding-bottom: 5px;
 }
 
-.navigation li:nth-child(-n+2) {
-    border-right: 1px solid black;
+.navigation li:nth-child(-n+2) { /* selects elements based on their position within a parent element in the case the first 2 */
+    border-right: 1px solid black; /* adds a border around an element and set the width, style, and color of the border, in this case only the right */
   }
 
 h2 {
@@ -85,7 +85,7 @@ h3 {
     font-size: 20px;
     font-weight: 500;
     margin: 25px 0px 20px 10px;
-    clear: left;
+    clear: left; /* specifies whether an element should be moved below any floating elements that precede it */
 }
 
 .facts ul li {
@@ -111,12 +111,12 @@ label {
 }
 
 .form-container input[id="fullname"], input[id="email"] {
-    width: 100%;
+    width: 100%; /* sets the width on the input element */
 }
 
 .form-container textarea[id="message"] {
 width: 100%;
-resize: none;
+resize: none; /* specifies whether an element can be resized by the user, in the case the textarea element cant be resized */
 }
 
 h5 {
@@ -124,11 +124,11 @@ h5 {
     font-weight: 500;
 }
 
-.radio label {
+.radio label { /* puts the radio label in one line */
     display: inline-block;
 }
 
-.send {
+.send { /* styles the button */
     border: 1px solid black;
     padding: 8px 8px;
     margin-top: 5px;
@@ -136,8 +136,8 @@ h5 {
     font-size: 10px;
 }
 
-footer {
-    text-align: right;
+footer { 
+    text-align: right;/* aligns the text in the footer element to the right */
     padding: 20px;
     font-size: small;
 }
