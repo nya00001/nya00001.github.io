@@ -22,7 +22,8 @@ body{
 
 h1 {
     color: white;
-    font-size: 40px;
+    font-weight: 500;
+    font-size: 44px;
     text-align: center;
 }
 
@@ -87,10 +88,20 @@ h3 {
     clear: left;
 }
 
+.facts ul li {
+    margin: 0;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 25px 0px 20px 10px;
+}
+
 .form-container {
     border: 1px solid black;
     padding: 20px;
-    margin: 20px;
+    margin: 10px;
 }
 
 label {
@@ -106,6 +117,11 @@ label {
 .form-container textarea[id="message"] {
 width: 100%;
 resize: none;
+}
+
+h5 {
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .radio label {
