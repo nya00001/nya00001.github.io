@@ -88,7 +88,6 @@ h3 {
 }
 
 .form-container {
-
     border: 1px solid black;
     padding: 20px;
     margin: 20px;
@@ -104,9 +103,21 @@ label {
     width: 100%;
 }
 
-.form-container input[id="message"] {
-    width: 100vh ; 
-    height: 100px;
+.form-container textarea[id="message"] {
+width: 100%;
+resize: none;
+}
+
+.radio label {
+    display: inline-block;
+}
+
+.send {
+    border: 1px solid black;
+    padding: 8px 8px;
+    margin-top: 5px;
+    background-color: #cbf7f2;
+    font-size: 10px;
 }
 
 footer {
