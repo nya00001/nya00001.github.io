@@ -4,13 +4,146 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/cf37d81192.js" crossorigin="anonymous"></script>
     <title>Three Star Media</title>
 </head>
 <body>
-    <div>
-        <nav>
-            <img src="images/logo.png" alt="Three star media logo">
-        </nav>
-    </div>
+    <header>
+        <div class="wrapper">
+            <nav>
+               <img src="images/logo.png" alt="Three star media logo">
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Team</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+                <input id="search" type="search" placeholder="Search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </nav>
+        </div>
+    </header>
+    <section class="home">
+        <img src="images/main-banner.jpg" alt="main-banner">
+        <div class="wrapper">
+            <h1>Welcome to Three Star Media</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto tenetur beatae quos sed, in facilis provident dicta iure eius harum nesciunt saepe veniam minima nulla tempore cupiditate necessitatibus facere quasi.</p>
+            <button>Connect with us <i class="fa-solid fa-caret-right"></i></button>
+        </div>
+    </section>
+    <section class="about-us">
+        <div class="wrapper">
+            <img src="images/about-us.jpg" alt="Tennis-table">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed, incidunt iusto soluta provident illum molestias exercitationem ipsa, nobis possimus placeat officia laudantium laborum ad modi distinctio dignissimos cupiditate labore repellendus?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id neque, nemo aspernatur labore fugit voluptates beatae, nulla accusamus ducimus.</p>
+        </div>
+    </section>
+    <section class="wrapper">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div>
+             <nav class="digital">
+                <img src="images/digital.jpg" alt="Digital Transformation">
+                <h3>Digital Transformation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat ducimus totam sapiente ipsum quidem sint harum. Voluptate, soluta? </p>
+                <button>Digittal Plans <i class="fa-solid fa-caret-right"></i></button>
+             </nav>
+             <nav class="marketing">
+                <img src="images/marketing.jpg" alt="Marketing">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat ducimus totam sapiente ipsum quidem sint harum. Voluptate, soluta? </p>
+                <button>Marketing Plans <i class="fa-solid fa-caret-right"></i></button>
+             </nav>
+             <nav class="Video">
+                <img src="images/video.jpg" alt="Video Production">
+                <h3>Video Production</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat ducimus totam sapiente ipsum quidem sint harum. Voluptate, soluta? </p>
+                <button>Video Plans <i class="fa-solid fa-caret-right"></i></button>
+             </nav>
+             <nav class="Web">
+                <img src="images/web.jpg" alt="Web Development">
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat ducimus totam sapiente ipsum quidem sint harum. Voluptate, soluta? </p>
+                <button>Web Plans <i class="fa-solid fa-caret-right"></i></button>
+             </nav>
+             <nav class="Print">
+                <img src="images/print.jpg" alt="Print">
+                <h3>Print</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat ducimus totam sapiente ipsum quidem sint harum. Voluptate, soluta? </p>
+                <button>Print Plans <i class="fa-solid fa-caret-right"></i></button>
+             </nav>
+            </div>
+        </div>
+    </section>
+    <section class="vision">
+        <div class="wrapper">
+          <img src="images/vision.jpg" alt="Vision">
+          <h3>Our Vision</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quibusdam eos quas tenetur non dicta quidem ipsam vel ea.</p>
+          <button>Learn More <i class="fa-solid fa-caret-right"></i></button>
+        </div>
+    </section>
+    <section class="wrapper">
+        <h2>Our Team</h2>
+        <div class="team">
+            <nav>
+                <img src="images/john.jpg" alt="John Doe">
+                <h3>John Doe</h3>
+                <p><strong>CEO and Co-owner</strong></p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem vero porro exercitationem? Blanditiis sunt adipisci iste voluptatibus illo.</p>
+            </nav>
+            <nav>
+                <img src="images/bob.jpg" alt="Bob Rite">
+                <h3>Bob Rite</h3>
+                <p><strong>CFO and Co-owner</strong></p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem vero porro exercitationem? Blanditiis sunt adipisci iste voluptatibus illo.</p>
+            </nav>
+        </div>
+    </section>
+    <section class="wrapper">
+        <h2>Contact us</h2>
+        <div class="form">
+            <h3>Send us a message</h3>
+            <form>
+                <label for="full-name">Full Name</label>
+                <input type="text" id="full-name" name="full-name" required>
+                <br>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+                <br>
+                <input type="submit" value="Send">
+              </form>
+        </div>
+        <div class="hours">
+            <h3>Hours of operation</h3>
+            <table>
+                <tr>
+                  <td>Days</td>
+                  <td>Hours</td>
+                </tr>
+                <tr>
+                  <td>Monday - Friday</td>
+                  <td>9 AM - 6PM</td>
+                </tr>
+                <tr>
+                  <td>Saturday - Sunday</td>
+                  <td>Closed</td>
+                </tr>
+              </table>
+        </div>
+        <div class="location">
+            <h3>Location</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d89726.23160103102!2d-75.86264118852853!3d45.3499278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1680386004858!5m2!1sen!2sca"></iframe>
+        </div>
+    </section>
+    <footer>
+        <div class="wrapper">
+           <p> &copy; Copyright Three Star Media, 2020<br>All images are taken from <a href="https://unsplash.com" target="_blank">Unsplash.</a></p>
+        </div>
+      </footer>
 </body>
 </html>
