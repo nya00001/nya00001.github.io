@@ -52,7 +52,7 @@ body {
 }
 
 header { 
-    border: 15px solid #222;
+    border: 10px solid #222;
 
 }
 
@@ -104,6 +104,47 @@ ul {
     border-bottom: 1px solid #c78c06;
 }
 
+
+.home img {
+    display: block;
+    width: 100%;
+    position: absolute;
+  }
+  
+.home-wrapper {
+    position: relative;
+    padding-top: 50px;
+  }
+  
+.h-wrapper h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    line-height: 1.5;
+  }
+
+.h-wrapper p {
+    color: white;
+    font-size: small;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.h-wrapper button {
+    background-color: #c78c06;
+    border: 0;
+    padding: 25px;
+    font-size: 18px;
+}
+
+.h-wrapper {
+
+    padding-top: 50px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
 
 
 
