@@ -3,6 +3,9 @@
    License: none (public domain)
 */
 
+
+/* Resets all default styling for most HTML elements in browser */
+html, body, div, span, applet, object, iframe,
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -47,10 +50,12 @@ table {
 	border-spacing: 0;
 }
 
+/* Sets the font family for all the body */
 body {
     font-family: 'Open Sans', sans-serif;
 }
 
+/* adds padding for the first section of the body */
 .body1 {
     padding-left: 5px;
     padding-right: 5px;
@@ -69,6 +74,7 @@ li:first-child a {
     color: #222;
 }
 
+/* changes background color for the first list item */
 li:first-child {
     background-color: #c78c06;
 }
@@ -76,7 +82,7 @@ li:first-child {
 ul li {
     padding: 20px;
 }
- 
+
 ul li a {
     text-decoration: none;
     color: #c78c06;
@@ -99,6 +105,7 @@ ul {
     margin: 8px;
 }
 
+/* this styles the search button */
 .fa-magnifying-glass {
     color: #c78c06;
     background-color: #222;
@@ -108,6 +115,7 @@ ul {
     border-bottom: 1px solid #c78c06;
 }
 
+/* makes container relative to contain absolute image */
 .home {
     position: relative;
 }
@@ -124,6 +132,7 @@ ul {
     padding-bottom: 8%;
   }
   
+  /* styles the text and button */
 .h-wrapper h1 {
     font-size: 50px;
     font-weight: bold;
@@ -145,6 +154,7 @@ ul {
     font-size: 18px;
 }
 
+/* change opasity of background color */
 .h-wrapper {
     padding-top: 50px;
     padding-bottom: 5px;
@@ -161,11 +171,13 @@ ul {
     padding: 10px;
 }
 
+/* changes image meseaurments relative to the container */
 .wrapper-aboutus img {
     width: 100%;
     height: 38%;
  }
 
+/* styles the text and button */
 .wrapper-aboutus h2 {
     font-size: 35px;
     font-weight: bold;
@@ -199,6 +211,7 @@ nav {
     display: block;
 }
 
+/* changes image mesearmunts so that it spans the parents width */
 .services img {
     width: 100%;
 }
@@ -223,6 +236,7 @@ nav {
     font-size: 15px;
 }
 
+/* makes container relative to contain absolute image */
 .vision {
     position: relative;
 }
@@ -253,6 +267,7 @@ nav {
     padding-bottom: 10px;
 }
 
+/* change opasity of background color */
 .wrapper-vision button {
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
@@ -320,12 +335,14 @@ nav {
     line-height: 2;
 }
 
+/* style label and display it as a block element */
 label {
     display: block;
     margin-bottom: 5px;
     margin-top: 10px;
 }
 
+/* makes the width span the container */
 .form input[id="full-name"], input[id="email"] {
     width: 100%; 
 }
@@ -354,16 +371,19 @@ table {
     width: 100%;
 }
 
+/* styles the table to show the border */
 td, th {
     padding: 10px;
     border: 1px solid black;
     font-size: small;
 }
 
+/* changes background color for the first row */
 tr:first-child {
     background-color: #ffe6ac;
 }
 
+/* alignes the text in the table on the center */
 tr:first-child td {
     text-align: center;
 }
@@ -374,6 +394,7 @@ tr:first-child td {
     line-height: 2;
 }
 
+/* changes the map measurments*/
 .location iframe {
     width: 100%;
     height: 400px;
@@ -397,9 +418,10 @@ footer{
     color: #c78c06;
 }
 
-
+/* the following will apply when the screen width is 760px wide or above */
 @media screen and (min-width: 760px) {
 
+  /* Styles the header and applies flex display and centers the elements withing the header */
     header { 
         padding-left: 80px;
         padding-right: 80px;
@@ -432,11 +454,13 @@ footer{
         padding: 20px;
     }
 
+  /* adds a wrapper width */
     .h-wrapper {
         width: 80%;
         margin: auto;
     }
 
+  /* floats image to the left */
     .about-us img {
         float: left;
         margin-right: 10px;
@@ -452,6 +476,7 @@ footer{
         padding-bottom: 4%;
     }
 
+  /* adds a wrapper width */
     .wrapper-aboutus {
         width: 90%;
         margin: auto;
@@ -470,23 +495,27 @@ footer{
         margin-bottom: 5px;
     }
 
+  /*puts the elements within services into a grid layout with 6 columns and 2 rows */
     .services {
         display: grid;
         grid-template-columns: repeat(6, 1fr);
         grid-template-rows: repeat(2, 1fr);
         gap: 10px;
     }
-      
+
+ /* defines the first two items positions in the grid layout */
     .services nav:nth-child(-n + 2) {
         grid-row: 1 / 2;
         grid-column: span 3;
     }
       
+ /* defines the last three items positions in the grid layout */
     .services nav:nth-child(n + 3) {
         grid-row: 2 / 3;
         grid-column: span 2;
     }
 
+ /* hides the overflow of the image within vision section */
     .vision {
         overflow: hidden;
     }
@@ -495,27 +524,32 @@ footer{
         height: 400px;
         width: 100%;
     }
-    
+
+ /* adds a wrapper width */
     .wrapper-vision {
         width: 70%;
         margin: auto;
     }
-
+    
+ /* adds a wrapper width */
     .wrapper-team {
         width: 70%;
         margin: auto;
     }
 
+  /*puts the elements within team into a grid layout with 6 columns and 2 rows */
     .team {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
-      
+            
+ /* defines the third item position in the grid layout */
     .team nav:nth-child(3) {
         grid-row: 2 / 3;
         grid-column: 2 / 3;
     }
-      
+
+ /* defines the fourth item position in the grid layout */
     .team nav:nth-child(4) {
         grid-row: 2 / 3;
         grid-column: 1 / 2;
@@ -530,22 +564,26 @@ footer{
         margin: auto;
     }
 
+ /* adjusts the measurments of the map */
     .location iframe {
         width: 100%;
         height: 300px;
     }
 
+ /*puts the elements within form-grid into a grid layout with 2 columns and 2 rows with a gap of 20px*/
     .form-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 20px;
     }
-      
+
+ /* defines the .hours class position in the grid layout */
     .hours {
         grid-column: 1 / 3;
         grid-row: 2 / 3;
     }
 
+ /* puts a wrapper in footer*/
     .footer{
         width: 70%;
         margin: auto;
