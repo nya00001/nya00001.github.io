@@ -158,7 +158,6 @@ ul {
     padding: 5px;
 }
 
-
 .about-us img {
     width: 100%;
     height: 38%;
@@ -191,6 +190,10 @@ ul {
     padding: 5px;
     background-color: #ffe6ac;
     margin-bottom: 10px;
+}
+
+nav {
+    display: block;
 }
 
 .services img {
@@ -231,7 +234,6 @@ ul {
     position: relative;
     margin-top: 10px;
     padding: 5px;
-
 }
 
 .wrapper-vision h3 {
@@ -392,3 +394,163 @@ footer{
     color: #c78c06;
 }
 
+
+@media screen and (min-width: 760px) {
+
+    header { 
+        padding-left: 70px;
+        padding-right: 70px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background-color: #222;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    ul {
+        margin: 15px;
+        display: flex;
+    }
+
+    .logo {
+        background-color: #222 ;
+        margin: 0%;
+    }
+
+    .search input {
+        width: 15vw;
+        margin: 0px;
+        padding: 8px;
+
+    }
+
+    ul li {
+        padding: 20px;
+    }
+
+    .h-wrapper {
+        width: 80%;
+        margin: auto;
+    }
+
+    .about-us img {
+        float: left;
+        margin-right: 10px;
+        width: 400px;
+    }
+
+    .about-us {
+        background-color: #ffe6ac;
+        padding-top: 10px;
+        padding-left: 80px;
+        padding-right: 80px;
+        padding-bottom: 4%;
+    }
+
+    .wrapper-aboutus {
+        margin: 10px;
+    }
+
+    .wrapper-services {
+        clear: both;
+    }  
+
+    .wrapper-service {
+        width: 70%;
+        margin: auto;
+    }
+
+    .info {
+        margin-bottom: 5px;
+    }
+
+    .services {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 10px;
+    }
+      
+    .services nav:nth-child(-n + 2) {
+        grid-row: 1 / 2;
+        grid-column: span 3;
+    }
+      
+    .services nav:nth-child(n + 3) {
+        grid-row: 2 / 3;
+        grid-column: span 2;
+    }
+
+    .vision {
+        overflow: hidden;
+    }
+
+    .vision img {
+        height: 400px;
+        width: 100%;
+    }
+    
+    .wrapper-vision {
+        width: 70%;
+        margin: auto;
+    }
+
+    .wrapper-team {
+        width: 70%;
+        margin: auto;
+    }
+
+    .team {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+      
+    .team nav:nth-child(3) {
+        grid-row: 2 / 3;
+        grid-column: 2 / 3;
+    }
+      
+    .team nav:nth-child(4) {
+        grid-row: 2 / 3;
+        grid-column: 1 / 2;
+    }
+
+    .teaminfo {
+        margin: 0;
+    }
+
+    .wrapper-form {
+        width: 70%;
+        margin: auto;
+    }
+
+    .location iframe {
+        width: 100%;
+        height: 300px;
+    }
+
+    .form-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+    }
+      
+    .hours {
+        grid-column: 1 / 3;
+        grid-row: 2 / 3;
+    }
+      
+      location {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+
+    .footer{
+        width: 70%;
+        margin: auto;
+    }
+
+
+}
