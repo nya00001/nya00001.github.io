@@ -377,6 +377,7 @@ tr:first-child td {
 footer{
     background-color: #222 ;
     padding: 10px;
+    margin-top: 10px;
 }
 
 .footer {
