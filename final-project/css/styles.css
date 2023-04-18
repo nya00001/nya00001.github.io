@@ -423,15 +423,15 @@ footer{
 
   /* Styles the header and applies flex display and centers the elements withing the header */
     header { 
-        padding-left: 80px;
-        padding-right: 80px;
-        padding-top: 30px;
-        padding-bottom: 30px;
         background-color: #222;
+    }
+
+    .header-wrapper {
+        max-width: 1200px;
+        margin: auto;
         display: flex;
         justify-content: space-between;
         align-items: center;
-
     }
 
     ul {
